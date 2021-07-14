@@ -9,6 +9,7 @@ data class User(val name: String, val id: Int) {           // 1
     override fun equals(other: Any?) =
         other is User && other.id == this.id               // 2
 
+
 }
 
 fun main() {
